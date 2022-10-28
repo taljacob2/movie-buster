@@ -6,25 +6,25 @@
 erDiagram
     MOVIES ||--o{ TICKETS : allows
     MOVIES {
-        string Id PK
+        int Id PK
         string Title
         string MovieGenreId FK
     }
     MOVIES }o--|| MOVIEGENRES : have
     MOVIEGENRES {
-        string Id PK
+        int Id PK
         string Title
         int AgeLimit
     }
     CUSTOMERS ||--o{ TICKETS : have
     TICKETS {
-        string Id PK
+        int Id PK
         string TicketTypeId FK
         string CustomerId FK
         string MovieId FK
     }
     TICKETTYPES {
-        string TicketTypeId PK
+        int TicketTypeId PK
         int Price
         string Title
     }
