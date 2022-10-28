@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiServerUrl: "https://taljacob2.github.io/ng-starter-template"
+  apiServerUrl: "https://taljacob2.github.io/movie-buster"
 };
